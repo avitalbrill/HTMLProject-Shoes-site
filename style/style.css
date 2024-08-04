@@ -1,0 +1,345 @@
+/*עיצוב של הגוף בכל העמודים וכן כותרת 4*/
+body, h4
+{
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(255,255,255); 
+}
+/*עיצוב כותרת 1*/
+h1
+{
+    font-size: 300%;
+   
+}
+/*עיצוב של  ראש האינדקס*/
+header 
+{
+height: 15vh;
+}
+/*עיצוב כותרת אייצ 1 של הראש של האינדקס*/
+header h1
+{
+ padding-left: 17%; 
+}
+/*עיצוב של הלוגו של הראש של האינדקס*/
+header img 
+{
+   
+  float: left;
+  width: 8%;
+
+
+}
+/*עיצוב הנאב של האינדקס*/
+nav
+{
+   height: 10vh;
+   padding :0.8%; 
+   background-color: rgb(187, 147, 225);
+
+}
+/*עיצוב הקישורים כשנוגעים בהם נאב של האינדקס*/
+nav a:hover
+{
+    color: whitesmoke;
+}
+/*עיצוב השורות של הנאב*/
+
+nav li
+{
+   list-style-type: none; 
+   margin:2%;
+   display: inline;
+  
+}
+/*עיצוב הקישורים של הנאב*/
+nav a
+{
+    color: black;
+    padding-right: 5%;
+    font-size: 1.5em;
+    text-decoration: none;
+  
+}
+/*עיצוב הייפראמ */
+iframe
+{
+   width: 100%;
+  height: 80vh;
+   box-shadow: 5px 5px 5px white;
+}
+/*עיצוב ארטיקל*/
+
+article
+{
+   height: 80vh;
+    
+   
+   
+}
+/*עיצוב כל התמונות שבאתר שנוגעים אז נהיה שקיפות*/
+img:hover
+{
+    opacity: 0.8;
+ 
+}
+/*עיצוב הפוטר של האינדקס*/
+footer
+{
+
+    background-color: rgb(187, 147, 225);
+   margin-bottom: 6%;
+   color:black ;
+   height: 8vh;
+   padding: 1%;
+   text-shadow: 7px 7px 7px whitesmoke;
+}
+/*עיצוב הקישור כשנוגעים בפוטר של האינדקס*/
+footer a:hover
+{
+    color:whitesmoke ;
+}
+
+/*עיצוב התמונות של כל הדיבים של הנעליים וכן התמונות של הנעל שנפתחת בנשים*/
+
+ .item img, .imgw
+{
+  float: right;
+  padding: 1%;
+  height: 20%;
+  width: 30%;
+  border-radius: 5%;
+ box-shadow: 0px 0px 20px burlywood;
+ 
+ 
+}
+/* עיצוב הכפתור עצמו*/
+.dropbtn 
+{
+    background-color:black;
+    border-radius: 10%;
+    color: white;
+    padding: 5%;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+    width: 10vw;
+  }
+  /* עיצוב הדיב שבתוכו הכפתור וכל הקישורים*/
+ 
+.dropdown 
+ {
+    position: relative;
+    display: inline-block;
+    
+  }
+  /*עיצוב הדיב שבתוכו רק הקישורים*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /*עיצוב הדיב שבתוכו רק הקישורים -עיצוב הקישרורים עצמם*/
+  .dropdown-content a 
+  {
+    color: black;
+    padding: 10% 10%;
+    text-decoration: none;
+    display: block;
+  }
+ /*עיצוב הדיב שבתוכו רק הקישורים -עיצוב הקישרורים עצמם כשנוגעים מה יהיה העיצוב*/
+  .dropdown-content a:hover
+  {
+    background-color: #f1f1f1
+  }
+  /*כשנוגעים*/
+  .dropdown:hover .dropdown-content 
+  {
+    display: block;
+  }
+  /*כשנוגעים*/
+  .dropdown:hover .dropbtn {
+    background-color:rgb(187, 147, 225);
+    
+  }
+  /*עיצוב אייצ 2*/
+  h2
+  {
+    font-size:200%;
+    padding: 2%;
+  }
+  /*עיצוב התמונות שבדף הבית*/
+  .imghome
+  {
+   width: 48%;
+   height: 550px;
+   float: right;
+   border-radius: 5%;
+  padding: 1%;
+
+  }
+  /*עיצוב הדיב שמכיל את הכתב שנמצא על הנעל בנשים */
+.iitem
+{
+  position: absolute;
+  padding-left: 6%;
+  z-index: 1;
+  padding-top: 3%;
+  
+}
+/*עיצוב כל הדיבים של הנעליים*/
+.item 
+{
+  position: relative;
+}
+/* עיצוב האאיצ 1 של התמונות של דף הבית שנמצאים בתוך הדיב*/
+.bigdivhomepage h1
+{     
+ position: absolute;
+ z-index: 1;
+ padding-left: 15%;
+ font-size: 1000%;
+ color: white;
+ padding-top: 2%;
+
+}
+/*   עיצוב האאיצ 1 של התמונות של דף הבית שנמצאים בתוך הדיב העיצוב כשנוגעים */
+.bigdivhomepage h1:hover
+{
+  color: black;
+}
+/*עיצוב האאיצ 1 של הכיתוב שרואים כשנשלח הטופס לעמוד שמאשר שהתקבל הטופס*/
+h1[name="g3"]
+{
+    padding-top: 10%;
+}
+/*הדיטי זה הדיב של הטבלה אז העיצוב כאן מעצב את הטבלה של הדיב*/
+.dt table
+{
+  
+  padding: 3%;
+  border-color:  rgb(187, 147, 225);
+  border-bottom-style: outset;
+  width: 80%;
+  text-align: center;
+
+  
+}
+/*עיצוב הדיב עצמו שבתוכו הטבלה*/
+.dt 
+{
+    width: 40%;
+   float: left; 
+    padding: 5%;
+}
+/*עיצוב הכתב שבכותרת הטבלאות*/
+.dtc{
+  
+  font-size: 150%;
+         
+}
+/*עיצוב האינפוטים של הטופס*/
+input
+{
+  width:720px;
+  height: 40px;
+  background-color: rgb(187, 147, 225);
+  border-radius: 5px;
+  border-color: whitesmoke;
+  border-style: solid;
+  margin: 0.5%;
+
+}
+
+/*עיצוב האינפוטים של הטופס כשנוגעים בהם*/
+
+input:hover
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: rgb(201, 168, 232);
+  border-radius: 10px;
+}
+input:focus
+{
+  background-color: rgb(214, 211, 247);
+}
+/*עיצוב התמונות של הפריט שנפתח בנשים ובגברים*/
+.imgw
+{
+  display: flex;
+  width: 20vw;
+  height: 50vh;
+  justify-content:center;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  margin: 1%;
+}
+/*עיצוב המחירים המיוחדים*/
+span
+{
+  color: rgb(118, 53, 184);
+}
+/*עיצוב בלעדי לכיתוב שעל התמונה בדף הבית*/
+h1[name="g1"]
+{
+  padding-left: 59%;
+  
+}
+/*עיצוב האינפוטים שהם עגולים*/
+input[type="radio"]
+{
+height: 15px;
+width: 15%;
+}
+/*הדיב של הפריט שנפתח שכתוב עליו לרכישה*/
+.formww
+{
+  width: 15vw;
+  height: 5vh;
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  font-size: 100%;
+  
+}
+/*עיצוב הכיתוב שבדיב הרכישה'*/
+.buy
+{
+  text-decoration: none;
+}
+/*הדיב הגדול שמכיל בתוכו את שתי התמונות שבדף הבית*/
+.bigdivhomepage
+{
+width: 100%;
+}
+/*עיצוב תמונה לרקע של הגוף של דף אודות*/
+.bodyabout
+{
+  background-image: url(../images/aboutsemel.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1355px;  
+}
+/*עיצוב הוידיאו של דף אודות*/
+video
+{
+  width: 40vw;
+  border-radius: 5%;
+  
+}
+.p{
+  font-size: 28px;
+}
+.pmen{
+  width: 70%;
+}
+
+ tr:nth-child(even) 
+ {
+  background-color: gray;
+  
+ }
+
